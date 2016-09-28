@@ -2,19 +2,92 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: white;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
   background-color: red;
   border-radius: 0;
+  margin-top: 30px;
   border: 0;
 }
 
 #logo-img {
   background: url('../img/logo.png') no-repeat;
-  width: 150px;
-  height: 55px;
+  width: 220px;
+  height: 81px;
   margin: 10px 15px 10px 0;
+  position: relative;
+  top: -15px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+#nav-list {
+  margin: 10px;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid;
+  border-color: white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear:both;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.jumbotron {
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #logo-img {
+    left: 10px;
+  }
+
+  .navbar-header {
+    height: 70px;
+  }
+
+  #collapsable-nav {
+    border: 0px;
+  }
+
+  .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
 }
