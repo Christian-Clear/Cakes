@@ -2,7 +2,8 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: white;
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 /** HEADER **/
@@ -11,6 +12,7 @@ body {
   border-radius: 0;
   margin-top: 30px;
   border: 0;
+
 }
 
 #logo-img {
@@ -64,6 +66,42 @@ body {
   color: black;
 }*/
 
+.locations {
+  color: black;
+  padding-bottom: 20px;
+}
+
+.locations h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.locations h2 {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.locations h3 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.locations h4 {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.locations p {
+  font-size: 0.95em;
+}
+
+.locations img {
+  height: 150px;
+  width: 200px;
+}
+
 .panel-footer {
   color: white;
   background-color: red; 
@@ -71,7 +109,7 @@ body {
 }
 
 .panel-footer h1 {
-  font-size: 1.3em; 
+  font-size: 1.1em; 
 }
 
 .panel-footer p {
@@ -88,7 +126,7 @@ body {
 
 #footer-fb {
   font-size: 2em;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 #footer-fb a:hover {
@@ -134,5 +172,11 @@ body {
 
   .panel-footer hr {
     width: 33%;
+  }
+
+  .locations {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }
