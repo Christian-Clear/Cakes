@@ -60,6 +60,38 @@ body {
     background-image: none
 }
 
+/*.glyphicon-chevron-right, .glyphicon-chevron-left{
+  color: black;
+}*/
+
+.panel-footer {
+  color: white;
+  background-color: red; 
+  text-align: center;
+  vertical-align: middle;
+}
+
+.panel-footer h1 {
+  font-size: 1.3em; 
+}
+
+.panel-footer p {
+  font-size: 1.1em;
+}
+
+.panel-footer a {
+  color: white;
+}
+
+.panel-footer a:hover {
+  color: grey;
+}
+
+#footer-fb {
+  font-size: 2em;
+  vertical-align: center;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
