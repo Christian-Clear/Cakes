@@ -56,6 +56,11 @@ body {
   background-color: white;
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
@@ -89,5 +94,5 @@ body {
   .jumbotron {
     margin-top: 30px;
     padding: 0;
-  }
+  }2
 }
