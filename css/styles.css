@@ -50,6 +50,10 @@ body {
   top: 10px;
 }
 
+.navbar-header button.navbar-toggle:focus {
+  background-color: red;
+}
+
 .jumbotron {
   margin-top: 30px;
   padding: 0;
@@ -69,6 +73,10 @@ body {
 .locations {
   color: black;
   padding-bottom: 20px;
+}
+
+.location-col {
+  margin-bottom: 20px;
 }
 
 .locations h1 {
@@ -164,10 +172,6 @@ body {
   float: right;
   margin-right: 50px;
   width: 130px;
-}
-
-.btn-small {
-  border-color: blue;
 }
 
 /********** Large devices only **********/
