@@ -134,6 +134,41 @@ body {
   text-decoration: none;
 }
 
+#footer-blurb {
+  padding-top: 10px;
+  font-size: 0.7em;
+}
+
+#offers-main section {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#offers-main img {
+  height: 200px;
+  width: 300px;
+}
+
+#offers-main h1 {
+  color: red;
+  font-size: 1.25em;
+}
+
+#offers-main h2 {
+  color: black;
+  font-size: 1.1em;
+}
+
+#offers-main a {
+  font-size: 1.6em;
+  float: right;
+  margin-right: 50px;
+  width: 130px;
+}
+
+.btn-small {
+  border-color: blue;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -178,5 +213,18 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  #offers-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  #offers-main section {
+    margin-bottom: 100px;
+  }
+
+  #offers-main a {
+  margin-right: 0px;
   }
 }
