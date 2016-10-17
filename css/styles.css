@@ -8,7 +8,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: red;
+  background-color: #F41A04;
   border-radius: 0;
   margin-top: 30px;
   border: 0;
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle:focus {
-  background-color: red;
+  background-color: #F41A04;
 }
 
 .jumbotron {
@@ -112,7 +112,7 @@ body {
 
 .panel-footer {
   color: white;
-  background-color: red; 
+  background-color: #F41A04; 
   text-align: center;
 }
 
@@ -158,7 +158,7 @@ body {
 }
 
 #offers-main h1 {
-  color: red;
+  color: #F41A04;
   font-size: 1.25em;
 }
 
