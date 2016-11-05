@@ -5,45 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tummers | Patisserie Passionelle</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
-    <link href="https://file.myfontastic.com/FnQ9Sg2D4tW7U2UXetNxgb/icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,600" rel="stylesheet">
+    <link href="https://file.myfontastic.com/PJ2xv3G9wyCaz6qh6YMvqD/icons.css" rel="stylesheet">
   </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand pull-left" href="index.html" >
-            <div id="logo-img"></div>
-          </a>
 
-          <!-- Mobile menu button -->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        </div>  
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand pull-left" href="index.html" >
+              <div id="logo-img"></div>
+            </a>
 
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="http://webshop.bestelbijtummers.nl/">Webshop</a>
-            </li>
-            <li>
-              <a href="offers.html">Aanbiedingen</a>
-            </li>
-            <li>
-              <a href="locations.html">Lokaties</a>
-            </li>
-          </ul>
-        </div>      
-      </div>
-    </nav>
-  </header>
+            <!-- Mobile menu button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>  
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="http://webshop.bestelbijtummers.nl/">Webshop</a>
+              </li>
+              <li>
+                <a href="offers.html">Aanbiedingen</a>
+              </li>
+              <li>
+                <a href="vacatures.html">Vacatures</a>
+              </li>
+              <li>
+                <a href="locations.html">Lokaties</a>
+              </li>
+            </ul>
+          </div>      
+        </div>
+      </nav>
+    </header>
 
   <!-- Main content -->
   <div id="offers-main" class="container">
@@ -103,9 +108,26 @@
   </div> <!-- Main-content -->
 
   <!-- Footer -->
-  <footer class="panel-footer">
+    <footer class="panel-footer">
       <div class="container">
         <div class="row">
+        <section id="footer-icons" class="col-sm-3 visible-xs">
+              <div class="row">
+                <section id="footer-fb" class="col-xs-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-facebook-alt"></a>
+                </section>
+                <section id="footer-tw" class="col-xs-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-twitter-alt"></a>
+                </section>
+                <section id="footer-yt" class="col-xs-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-youtube-alt"></a>
+                </section>
+                <section id="footer-is" class="col-xs-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-instagram"></a>
+                </section>               
+            </div>            
+          </section>
+          <hr class="visible-xs">
           <section id="address-kw" class="col-sm-3">
             <h1>Kruisweg 642</h1>
             <p>
@@ -129,8 +151,21 @@
               <a href="tel:+31235477005">023-547-7005</a>
             </p>
           </section>
-          <section id="footer-fb" class="col-sm-3">
-            <a href="https://www.facebook.com/tummers.passionnelle" class="icon-facebook"></a>
+          <section id="footer-icons" class="col-sm-3 hidden-xs">
+              <div class="row">
+                <section id="footer-fb" class="col-sm-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-facebook-alt"></a>
+                </section>
+                <section id="footer-tw" class="col-sm-6">
+                  <a href="https://twitter.com/tummerstreat" class="icon-twitter-alt"></a>
+                </section>
+                <section id="footer-yt" class="col-sm-6">
+                  <a href="https://www.youtube.com/channel/UCpiczO3vFGITjQIBltTUTKg" class="icon-youtube-alt"></a>
+                </section>
+                <section id="footer-is" class="col-sm-6">
+                  <a href="https://www.facebook.com/tummers.passionnelle" class="icon-instagram"></a>
+                </section>               
+            </div>            
           </section>
           <section id="footer-blurb" class="col-sm-12">
             <p>
@@ -141,9 +176,8 @@
       </div>
     </footer>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

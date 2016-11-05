@@ -2,13 +2,13 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #F41A04;
+  background-color: #E30C20;
   border-radius: 0;
   margin-top: 30px;
   border: 0;
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle:focus {
-  background-color: #F41A04;
+  background-color: #E30C20;
 }
 
 .jumbotron {
@@ -112,16 +112,18 @@ body {
 
 .panel-footer {
   color: white;
-  background-color: #F41A04; 
+  background-color: #E30C20; 
   text-align: center;
+  font-weight: 400;
 }
 
 .panel-footer h1 {
-  font-size: 1.1em; 
+  font-size: 1.15em; 
+  font-weight: 600;
 }
 
 .panel-footer p {
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 
 .panel-footer a {
@@ -132,14 +134,22 @@ body {
   color: grey;
 }
 
-#footer-fb {
+#footer-icons {
   font-size: 2em;
-  padding-top: 40px;
+  padding-top: 19px;
 }
 
-#footer-fb a:hover {
+#footer-icons a:hover {
   color: white;
   text-decoration: none;
+}
+
+#footer-tw, #footer-is {
+  text-align: left;
+}
+
+#footer-fb, #footer-yt {
+  text-align: right;
 }
 
 #footer-blurb {
@@ -174,23 +184,83 @@ body {
   width: 130px;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+#vacatures-form, #vacatures-list {
+  color: black;
+  /*padding-top: 15px;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
 
+#vacatures-list {
+  border-left: 1px solid red;
+}
+
+#vacatures-form {
+  margin-right: -20px;
+}
+
+
+/********** Large devices only **********/
+@media screen and (min-width: 1200px) {
+
+  .vacatures_jumbotron {
+    background: url('http://placehold.it/1200x300') no-repeat;
+    height: 300px;
+  }
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
+  .vacatures_jumbotron {
+    background: url('http://placehold.it/992x300') no-repeat;
+    height: 300px;
+  }
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
+  #nav-list a {
+    text-align: right;
+    margin-right:-10px;
+    font-size: 1.3em;
+  }
+
+  .vacatures_jumbotron {
+    background: url('http://placehold.it/768x300') no-repeat;
+    height: 300px;
+  }
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
+
+  #vacatures-form, #vacatures-list {
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  }
+
+  #vacatures-list {
+    border-left: 0px;
+  }
+
+  #vacatures-list ul {
+    list-style-type: none;
+  }
+
+  #vacatures-form {
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .vacatures-hr {
+    width: 80%;
+  }
 
   #logo-img {
     left: 10px;
@@ -230,5 +300,13 @@ body {
 
   #offers-main a {
   margin-right: 0px;
+  }
+
+  #footer-tw, #footer-is {
+  text-align: left;
+  }
+
+  #footer-fb, #footer-yt {
+    text-align: right;
   }
 }
