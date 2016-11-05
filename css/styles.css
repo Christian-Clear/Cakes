@@ -16,7 +16,8 @@ body {
 }
 
 #logo-img {
-  background: url('../img/logo.png') no-repeat;
+  background: url('../img/logo_2.png') no-repeat;
+  background-size: 220px 81px;
   width: 220px;
   height: 81px;
   margin: 10px 15px 10px 0;
@@ -73,6 +74,8 @@ body {
 .locations {
   color: black;
   padding-bottom: 20px;
+/*  font-size: 1.3em;*/
+  text-align: center;
 }
 
 .location-col {
@@ -106,8 +109,8 @@ body {
 }
 
 .locations img {
-  height: 150px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
 
 .panel-footer {
@@ -208,12 +211,22 @@ body {
     background: url('http://placehold.it/1200x300') no-repeat;
     height: 300px;
   }
+
+  .kw_jumbotron {
+    background: url('http://placehold.it/1200x300') no-repeat;
+    height: 300px;
+  }
 }
 
 /********** Medium devices only **********/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
   .vacatures_jumbotron {
+    background: url('http://placehold.it/992x300') no-repeat;
+    height: 300px;
+  }
+
+  .kw_jumbotron {
     background: url('http://placehold.it/992x300') no-repeat;
     height: 300px;
   }
@@ -232,6 +245,11 @@ body {
     background: url('http://placehold.it/768x300') no-repeat;
     height: 300px;
   }
+
+  .kw_jumbotron {
+    background: url('http://placehold.it/768x300') no-repeat;
+    height: 300px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -242,7 +260,8 @@ body {
   color: black;
   margin-top: 40px;
   margin-bottom: 20px;
-  padding-left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   }
 
   #vacatures-list {
@@ -250,7 +269,7 @@ body {
   }
 
   #vacatures-list ul {
-    list-style-type: none;
+    list-style: none;
   }
 
   #vacatures-form {
