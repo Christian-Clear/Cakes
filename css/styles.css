@@ -12,7 +12,6 @@ body {
   border-radius: 0;
   margin-top: 30px;
   border: 0;
-
 }
 
 #logo-img {
@@ -88,6 +87,14 @@ body {
   color: black;
 }*/
 
+#locations-content a {
+  color: black;
+}
+
+#locations-content a:hover, a:focus {
+  text-decoration: none;
+}
+
 .locations {
   color: black;
   padding-bottom: 20px;
@@ -128,6 +135,10 @@ body {
 .locations img {
   height: 100%;
   width: 100%;
+}
+
+.locations i {
+  font-size: 0.9em;
 }
 
 .panel-footer {
@@ -353,6 +364,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    color: black;
+  }
+
+  .locations #locations-content a {
+    color: black;
+  }
+
+  .locations a:focus, a:hover {
+    color: black;
   }
 
   #offers-main {
