@@ -55,6 +55,23 @@ body {
   background-color: #E30C20;
 }
 
+#main-banner {
+  background-color: #FFFBFB;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  border: 3px solid red;
+}
+
+#main-content a:hover {
+  text-decoration: none;
+}
+
+#main-banner h1 {
+  font-size: 3em;
+  color: red;
+}
+
 .jumbotron {
   margin-top: 30px;
   padding: 0;
@@ -118,6 +135,7 @@ body {
   background-color: #E30C20; 
   text-align: center;
   font-weight: 400;
+  padding-top: 1px;
 }
 
 .panel-footer h1 {
@@ -134,7 +152,8 @@ body {
 }
 
 .panel-footer a:hover {
-  color: grey;
+  text-decoration: none;
+  color: white;
 }
 
 #footer-icons {
@@ -158,6 +177,13 @@ body {
 #footer-blurb {
   padding-top: 10px;
   font-size: 0.7em;
+  font-style: normal;
+}
+
+#footer-copyright {
+  font-style: normal;
+  font-size: 0.55em;
+  padding-top: 3px;
 }
 
 #offers-main section {
@@ -192,17 +218,26 @@ body {
   /*padding-top: 15px;*/
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
 }
 
 #vacatures-list {
   border-left: 1px solid red;
+  padding-left: 40px;
+}
+
+#vacatures-list h1 {
+  text-align: center;
 }
 
 #vacatures-form {
-  margin-right: -20px;
+  text-align: center;
+  margin-right: -5px;
 }
 
+#vacatures-form a {
+  color: #472300;
+}
 
 /********** Large devices only **********/
 @media screen and (min-width: 1200px) {
@@ -235,6 +270,14 @@ body {
 /********** Small devices only **********/
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+  #main-banner h1 {
+    font-size: 2.5em;
+  }
+
+  .panel-footer {
+    font-size: 0.95em;
+  }
+
   #nav-list a {
     text-align: right;
     margin-right:-10px;
@@ -254,6 +297,10 @@ body {
 
 /********** Extra small devices only **********/
 @media screen and (max-width: 767px) {
+
+  #main-banner h1 {
+    font-size: 2em;
+  }
 
   #vacatures-form, #vacatures-list {
   text-align: center;
