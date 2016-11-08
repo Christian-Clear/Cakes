@@ -95,6 +95,18 @@ body {
   text-decoration: none;
 }
 
+#hoiday-times {
+  color: #E30C20;
+  background-color: #FFFBFB;
+  font-size: 1.3em;
+  border: 3px solid #E30C20;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .locations {
   color: black;
   padding-bottom: 20px;
