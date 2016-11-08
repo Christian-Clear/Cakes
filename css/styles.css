@@ -255,7 +255,7 @@ body {
 @media screen and (min-width: 1200px) {
 
   .vacatures_jumbotron {
-    background: url('/img/vacatures_1170.png') no-repeat;
+    background: url('../img/vacatures_1170.png') no-repeat;
     height: 300px;
     margin-bottom: 20px;
   }
@@ -265,7 +265,7 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
   .vacatures_jumbotron {
-    background: url('/img/vacatures_920.png') no-repeat;
+    background: url('../img/vacatures_920.png') no-repeat;
     height: 300px;
   }
 }
@@ -288,7 +288,7 @@ body {
   }
 
   .vacatures_jumbotron {
-    background: url('/img/vacatures_720.png') no-repeat;
+    background: url('../img/vacatures_720.png') no-repeat;
     height: 300px;
   }
 }
