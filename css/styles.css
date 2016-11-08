@@ -256,6 +256,7 @@ body {
 
   .vacatures_jumbotron {
     background: url('../img/vacatures_1170.png') no-repeat;
+    background-position: center;
     height: 300px;
     margin-bottom: 20px;
   }
@@ -266,6 +267,7 @@ body {
 
   .vacatures_jumbotron {
     background: url('../img/vacatures_920.png') no-repeat;
+    background-position: center;
     height: 300px;
   }
 }
@@ -289,6 +291,7 @@ body {
 
   .vacatures_jumbotron {
     background: url('../img/vacatures_720.png') no-repeat;
+    background-position: center;
     height: 300px;
   }
 }
@@ -320,12 +323,12 @@ body {
   }
 
   #vacatures-form, #vacatures-list {
-  text-align: center;
-  color: black;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #vacatures-list {
