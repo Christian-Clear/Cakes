@@ -96,10 +96,9 @@ body {
 }
 
 #hoiday-times {
-  color: #E30C20;
   background-color: #FFFBFB;
   font-size: 1.3em;
-  border: 3px solid #228210;
+  border: 3px solid #E30C20;
   margin-top: 40px;
   border-radius: 5px;
   width: 200px;
@@ -130,7 +129,7 @@ body {
 }
 
 .locations h3 {
-  font-style: italic;
+/*  font-style: italic;*/
   font-weight: 700;
   font-size: 1em;
 }
@@ -138,6 +137,7 @@ body {
 .locations h4 {
   font-weight: 700;
   font-size: 1em;
+  color: #E30C20;
 }
 
 .locations p {
@@ -209,33 +209,6 @@ body {
   padding-top: 3px;
 }
 
-#offers-main section {
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
-#offers-main img {
-  height: 200px;
-  width: 300px;
-}
-
-#offers-main h1 {
-  color: #F41A04;
-  font-size: 1.25em;
-}
-
-#offers-main h2 {
-  color: black;
-  font-size: 1.1em;
-}
-
-#offers-main a {
-  font-size: 1.6em;
-  float: right;
-  margin-right: 50px;
-  width: 130px;
-}
-
 #vacatures-form, #vacatures-list {
   color: black;
   /*padding-top: 15px;*/
@@ -262,17 +235,29 @@ body {
   color: #472300;
 }
 
+.menu-grid div {
+  padding: 15px;
+  padding-bottom: 25px;
+}
+
+.menu-grid {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#menu-main img {
+  display: block;
+  margin: auto;
+  border: 1px solid #E30C20
+}
+
 /********** Large devices only **********/
 @media screen and (min-width: 1200px) {
 
   .vacatures_jumbotron {
-    background: url('http://placehold.it/1200x300') no-repeat;
+    background: url('/img/vacatures_1170.png') no-repeat;
     height: 300px;
-  }
-
-  .kw_jumbotron {
-    background: url('http://placehold.it/1200x300') no-repeat;
-    height: 300px;
+    margin-bottom: 20px;
   }
 }
 
@@ -280,12 +265,7 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
   .vacatures_jumbotron {
-    background: url('http://placehold.it/992x300') no-repeat;
-    height: 300px;
-  }
-
-  .kw_jumbotron {
-    background: url('http://placehold.it/992x300') no-repeat;
+    background: url('/img/vacatures_920.png') no-repeat;
     height: 300px;
   }
 }
@@ -308,12 +288,7 @@ body {
   }
 
   .vacatures_jumbotron {
-    background: url('http://placehold.it/768x300') no-repeat;
-    height: 300px;
-  }
-
-  .kw_jumbotron {
-    background: url('http://placehold.it/768x300') no-repeat;
+    background: url('/img/vacatures_720.png') no-repeat;
     height: 300px;
   }
 }
@@ -323,6 +298,25 @@ body {
 
   #main-banner h1 {
     font-size: 2em;
+  }
+
+  #xs-holiday-times {
+    background-color: #FFFBFB;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    border: 3px solid #E30C20;
+  }
+
+  #xs-holiday-times a:hover {
+    text-decoration: none;
+  }
+
+  #xs-holiday-times h1 {
+    font-size: 1.5em;
+    color: red;
   }
 
   #vacatures-form, #vacatures-list {
@@ -385,19 +379,6 @@ body {
 
   .locations a:focus, a:hover {
     color: black;
-  }
-
-  #offers-main {
-    display: flex;
-    justify-content: center;
-  }
-
-  #offers-main section {
-    margin-bottom: 100px;
-  }
-
-  #offers-main a {
-  margin-right: 0px;
   }
 
   #footer-tw, #footer-is {
