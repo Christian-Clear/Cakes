@@ -254,9 +254,15 @@ body {
   padding-bottom: 20px;
 }
 
+#menu-feestdagen, #menu-bruids, #menu-bw, #menu-kw  {
+  display: block;
+  margin: auto;
+}
+
 #menu-main img {
   display: block;
   margin: auto;
+  width: 100%;
   border: 1px solid #E30C20
 }
 
@@ -268,6 +274,16 @@ body {
     background-position: center;
     height: 300px;
     margin-bottom: 20px;
+  }
+
+  #menu-feestdagen, #menu-bruids, #menu-bw, #menu-kw {
+    height: 450px;
+    width: 450px;
+  }
+
+  .carousel-inner {
+    height: 615px;
+    width: 820px;
   }
 }
 
@@ -302,6 +318,11 @@ body {
     background: url('../img/vacatures_720.png') no-repeat;
     background-position: center;
     height: 300px;
+  }
+
+  #menu-feestdagen, #menu-bruids, #menu-bw, #menu-kw {
+    height: 350px;
+    width: 350px;
   }
 }
 
